@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+}
+
+body{margin:0;
+background-size: cover;
+}
+
+.hero-unit{
+	background-image: url('../images/example-bg-img.png');
+	background-size: cover;
+	padding: 200px 80px;
+	position: relative;
+
+	/*
+		positioning properties here
+	*/
+}
+
+.hero-unit h1 {
+	/*background: rgba(0,0,0,.7);*/
+	font-family: "Impact", "sans-serif";
+	color: #fff;
+	text-shadow: 2px 2px 1px #333;
+
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.photo-btn{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	background: #FFEE58;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.prev-photo-arrow{
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	/* RELEVANT CSS */
+
+}
+
+.prev-photo-arrow{
+
+	/* RELEVANT CSS */
+
+}
